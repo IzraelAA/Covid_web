@@ -1,0 +1,181 @@
+body {
+  background-color: #10253a;
+}
+
+ul li {
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+ul li label {
+  color: #fff;
+}
+
+ul li textarea {
+  border-radius: 7px;
+  width: 100%;
+}
+
+ul li button {
+  border-radius: 7px;
+}
+
+h4 {
+  text-align: center !important;
+}
+
+.container-fluid {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 100%;
+  color: #fff;
+}
+
+.container-fluid .odp {
+  padding: 10px 10px;
+  background-color: #0000FF;
+  border-radius: 7px;
+  font-family: sans-serif;
+}
+
+.container-fluid .pdp {
+  padding: 10px 10px;
+  background-color: #FF8C00;
+  font-family: sans-serif;
+  border-radius: 7px;
+}
+
+.container-fluid .positive {
+  padding: 10px 10px;
+  background-color: #FF7F50;
+  border-radius: 7px;
+  font-family: sans-serif;
+}
+
+.container-fluid .sembuh {
+  padding: 10px 10px;
+  background-color: #008000;
+  border-radius: 7px;
+  font-family: sans-serif;
+}
+
+.container-fluid .sembuh :hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.container-fluid .meninggal {
+  padding: 10px 10px;
+  background-color: #A9A9A9;
+  border-radius: 7px;
+  font-family: sans-serif;
+}
+
+.container-fluid h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.container-fluid #hover1 :hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.container-fluid #hover2 :hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.container-fluid #hover3 :hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.container-fluid #hover4 :hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.container-fluid #hover5 :hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.header-body {
+  margin-left: 4px;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 7px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.header-body .body h3 {
+  color: #000000;
+}
+
+.header-body #render-map {
+  width: 100%;
+  height: 50vh !important;
+  background: #f4f4f4;
+}
+
+.header-body #overflow {
+  width: 100%;
+  height: 50vh;
+  overflow: scroll;
+  border-radius: 7px;
+}
+
+.header-body table {
+  border-radius: 7px;
+}
+
+#footer {
+  padding-top: 10px;
+}
+
+#footer .sosialmedia {
+  float: right;
+  margin-right: 0px !important;
+}
+
+#footer #sosmed {
+  width: 130px;
+  margin-top: 5px;
+}
+
+#footer #gambar {
+  width: 45px;
+  height: 45px;
+}
+
+#footer #instagram {
+  width: 45px;
+  height: 45px;
+}
+
+#terang {
+  background-color: #8B0000;
+  color: #fff;
+}
+
+#gelap {
+  background-color: #10253a;
+  color: #fff;
+  outline-offset: unset;
+}
+
+label:active {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  #name {
+    font-size: 10px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

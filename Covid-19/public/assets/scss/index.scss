@@ -1,0 +1,234 @@
+body {
+    background-color: #10253a;
+
+}
+
+ul {
+    li {
+        padding-left: 30px;
+        padding-right: 20px;
+
+        // background-color: red;
+        label {
+            color: #fff;
+        }
+
+        textarea {
+            border-radius: 7px;
+            width: 100%;
+        }
+
+        button {
+            border-radius: 7px;
+        }
+    }
+}
+
+h4 {
+    text-align: center !important;
+}
+
+// Header
+.container-fluid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    // background-color: #10253a;
+    height: 100%;
+    color: #fff;
+
+    .odp {
+        padding: 10px 10px;
+        background-color: #0000FF;
+        border-radius: 7px;
+        font-family: sans-serif;
+
+
+
+    }
+
+    .pdp {
+        padding: 10px 10px;
+        background-color: #FF8C00;
+        font-family: sans-serif;
+        border-radius: 7px;
+
+
+    }
+
+    .positive {
+        padding: 10px 10px;
+        background-color: #FF7F50;
+        border-radius: 7px;
+        font-family: sans-serif;
+
+
+    }
+
+    .sembuh {
+        padding: 10px 10px;
+        background-color: #008000;
+        border-radius: 7px;
+        // height: 105px;
+        font-family: sans-serif;
+
+        :hover {
+            -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+        }
+    }
+
+    .meninggal {
+        padding: 10px 10px;
+        background-color: #A9A9A9;
+        border-radius: 7px;
+        // height: 105px;
+        font-family: sans-serif;
+
+    }
+
+    h5 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    #hover1 {
+        :hover {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+    }
+
+    #hover2 {
+        :hover {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+    }
+
+    #hover3 {
+        :hover {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+    }
+
+    #hover4 {
+        :hover {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+    }
+
+    #hover5 {
+        :hover {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+    }
+}
+
+// Body
+.header-body {
+    margin-left: 4px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+
+    .body {
+        h3 {
+            color: #000000;
+        }
+    }
+
+    // Map
+    // .wrapper {
+    // height: 100vh;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // }
+
+    #render-map {
+        width: 100%;
+        height: 50vh !important;
+        background: #f4f4f4;
+    }
+
+    // Akhir Map
+
+
+    #overflow {
+        width: 100%;
+        height: 50vh;
+        overflow: scroll;
+        border-radius: 7px;
+
+    }
+
+    table {
+        border-radius: 7px;
+    }
+
+
+
+}
+
+// Footer
+#footer {
+    // background-color: red;
+    padding-top: 10px;
+
+    .sosialmedia {
+        float: right;
+        margin-right: 0px !important;
+    }
+
+    #sosmed {
+        width: 130px;
+        margin-top: 5px;
+
+        // height: 60px;
+    }
+
+    #gambar {
+        width: 45px;
+        height: 45px;
+    }
+
+    #instagram {
+        width: 45px;
+        height: 45px;
+
+
+    }
+}
+
+// ganti background
+#terang {
+    background-color: #8B0000;
+    color: #fff;
+}
+
+#gelap {
+    background-color: #10253a;
+    color: #fff;
+    outline-offset: unset;
+}
+
+label {
+    &:active {
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #name {
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
